@@ -1,0 +1,11 @@
+ .messengers{position:fixed;right:0;top:40%;z-index:9}.messengers a{display:block;position:relative}
+ .telegram-mess{position:absolute;top:0;left:0;bottom:0;right:0;border-radius:50%}
+ .telegram-mess:after{content:'';position:absolute;top:24px;left:24px;width:44px;height:44px;background:0 0;border:.1px solid #0097CB;border-radius:50%;webkit-animation:widgetPulse infinite 1.5s;animation:widgetPulse infinite 1.5s}
+ .whatsap-mess:after{content:'';position:absolute;top:28px;left:28px;width:41px;height:41px;background:0 0;border:.1px solid #00CC56;border-radius:50%;webkit-animation:widgetPulse infinite 2s;animation:widgetPulse infinite 2s}
+ @-webkit-keyframes widgetPulse{
+     50%{-webkit-transform:scale(1,1);transform:scale(1,1);opacity:1}
+     100%{-webkit-transform:scale(2,2);transform:scale(2,2);opacity:0}
+ }
+ @keyframes widgetPulse{
+     50%{-webkit-transform:scale(1,1);transform:scale(1,1);opacity:1}100%{-webkit-transform:scale(2,2);transform:scale(2,2);opacity:0}
+ }
